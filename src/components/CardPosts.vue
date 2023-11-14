@@ -51,12 +51,15 @@ export default {
 
 <style scoped>
     section {    
+        width: 100%;
         max-width: 1024px;
         margin: 0 10px;
     }
 
     .container-post{
         width: 100%;
+        max-width: 100%;
+        overflow: auto;
         background-color: #F5F5F4;
         padding: 10px;
         border-radius: 3px;

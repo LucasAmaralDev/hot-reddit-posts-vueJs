@@ -13,7 +13,7 @@
             </div>
 
             <div class="container-comentarios-link">
-                <p>10 Comentários</p>
+                <p>{{ post.quantidade_comentarios }} Comentários</p>
 
                 <a :href="post.link_publicacao" target="_blank">
                     <button>Ver no Reddit</button>
